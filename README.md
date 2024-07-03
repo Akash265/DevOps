@@ -1,4 +1,5 @@
 [![Python application test with Github Actions](https://github.com/Akash265/DevOps/actions/workflows/devops.yml/badge.svg)](https://github.com/Akash265/DevOps/actions/workflows/devops.yml)
+[![Python application test with Github Actions](https://codebuild.eu-north-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiMm5TdzkzTFQ4ZHd3aUlWcWVIaVpmdDVsV0c5Slh4eU9JVUk4aENJWDFtSWxkMkVEeWtHTnorMThSRlJmR1hKSWdINXpjQXFyRmV4eUp3T0VYSTdFQWp3PSIsIml2UGFyYW1ldGVyU3BlYyI6ImF1d0tVWk56VTRxbkQ5bjQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 # DevOps
 
 ### Steps:
