@@ -17,7 +17,7 @@ hf_classifier = pipeline(
 
 def analyze_sentiment_textblob(text):
     blob = TextBlob(text)
-    polarity, subjectivity = blob.sentiment.polarity, blob.sentiment.subjectivity
+    polarity, _ = blob.sentiment.polarity, blob.sentiment.subjectivity
     if polarity > 0:
         sentiment = "positive"
     elif polarity < 0:
