@@ -1,17 +1,32 @@
-from mylib.logic import analyze_sentiment_textblob, analyze_sentiment_nltk, analyze_sentiment_hf, analyze_sentiment
+from mylib.logic import (
+    analyze_sentiment_textblob,
+    analyze_sentiment_nltk,
+    analyze_sentiment_hf,
+    analyze_sentiment,
+)
+
 
 def test_analyze_sentiment_textblob():
-    assert analyze_sentiment_textblob("Very good service offered by the team.") == "positive"
-    assert analyze_sentiment_textblob("The service was terrible and slow.") == "negative"
+    assert (
+        analyze_sentiment_textblob("Very good service offered by the team.")
+        == "positive"
+    )
+    assert (
+        analyze_sentiment_textblob("The service was terrible and slow.") == "negative"
+    )
+
 
 def test_analyze_sentiment_nltk():
-    assert analyze_sentiment_nltk("Very good service offered by the team.") == "positive"
+    assert (
+        analyze_sentiment_nltk("Very good service offered by the team.") == "positive"
+    )
     assert analyze_sentiment_nltk("The service was terrible and slow.") == "negative"
+
 
 def test_analyze_sentiment_hf():
     assert analyze_sentiment_hf("Very good service offered by the team.") == "positive"
     assert analyze_sentiment_hf("The service was terrible and slow.") == "negative"
-  
+
 
 def test_analyze_sentiment():
     text = "Very good service offered by the team."

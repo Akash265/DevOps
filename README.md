@@ -7,3 +7,4 @@
 2. Create empty files: `Makefile`, `requirements.txt`, `Dockerfile`, `main.py`, `mylib/__init__.py`
 3. Populate the `Makefile`
 4. Setup continuous integration i.e. check the code for issues like lint errors.
+5. Build cli using python Fire library `./cli-fire.py --help` to test logic
